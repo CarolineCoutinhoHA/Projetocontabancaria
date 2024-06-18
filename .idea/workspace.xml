@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e3f468-7902-47d1-b6e5-7d88a16f5ed8" name="Changes" comment="Projeto Generation conta bancaria">
+      <change afterPath="$PROJECT_DIR$/src/conta/model/ContaCorrente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conta/model/ContaPoupanca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/conta/util/Cores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/conta/util/Cores.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,9 @@
     &quot;accountId&quot;: &quot;18baf911-f00a-49b9-a358-6c8aa8502638&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/conta/model/ContaCorrente.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -87,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718622644992</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Projeto Generation conta bancaria">
+      <option name="closed" value="true" />
+      <created>1718644305201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718644305201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Projeto Generation conta bancaria">
+      <option name="closed" value="true" />
+      <created>1718644348091</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718644348091</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
