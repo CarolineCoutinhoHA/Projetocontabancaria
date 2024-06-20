@@ -2,6 +2,10 @@ package conta;
 import conta.model.Conta;
 import conta.model.ContaCorrente;
 import conta.model.ContaPoupanca;
+import conta.util.Cores;
+
+import java.io.IOException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Menu {
     public static void main(String[] args) {
@@ -48,7 +52,13 @@ public class Menu {
             System.out.println("Entre com a opção desejada:                          ");
             System.out.println("                                                     ");
 
-            opcao = leia.nextInt();
+            try {
+                opcao = leia.nextInt();
+            } catch (InputMismatchException e) {
+                System.out.println("\nDigite valores inteiros!");
+                leia.nextLine();
+                opcao = 0;
+            }
 
             if (opcao == 9) {
                 System.out.println("\nBanco do Brazil com Z - O seu Futuro começa aqui!");
@@ -103,5 +113,19 @@ public class Menu {
         System.out.println("Generation Brasil - generation@generation.org");
         System.out.println("github.com/conteudoGeneration");
         System.out.println("*********************************************************");
+    }
+
+    public static void keyPress() {
+
+        try {
+
+            System.out.println(Cores.TEXT_RESET + "\n\nPressione Enter para Continuar...");
+            System.in.read();
+
+        } catch (IOException e) {
+
+            System.out.println("Você pressionou uma tecla diferente de enter!");
+
+        }
     }
 }
