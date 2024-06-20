@@ -1,5 +1,5 @@
 package conta.model;
-public class ContaCorrente {
+public class Conta {
 
     private int numero;
     private int agencia;
@@ -7,7 +7,7 @@ public class ContaCorrente {
     private String titular;
     private float saldo;
 
-    public ContaCorrente(int numero, int agencia, int tipo, String titular, float saldo) {
+    public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
         this.numero = numero;
         this.agencia = agencia;
         this.tipo = tipo;
